@@ -21,4 +21,4 @@ Each project in this repository follows this general structure:
 
 Online Platform to execute: https://leetgpu.com/playground
 
-Note : The main() base is from ChatGpt. 
+Note : Portions of the basic coding framework, including main(), were derived with support from ChatGPT. 
