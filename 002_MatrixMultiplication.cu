@@ -1,3 +1,29 @@
+/* 
+________________________________________________
+
+CUDA Matrix Multiplication
+________________________________________________
+
+Write a program that multiplies two matrices of 32-bit floating point numbers on a GPU. 
+Challenge Link :- https://leetgpu.com/challenges/matrix-multiplication
+Note: M K N inter Changed.
+
+Test Link : https://leetgpu.com/playground 
+[Copy and Paste the code into the LeetGPU playground.cu window and click "Run" to execute]
+[he timing results from LeetGPU can be misleading, as the slower GPU execution times are 
+likely due to overhead introduced by the sandboxed environment rather than actual kernel performance.]
+
+Output :-
+    Running NVIDIA GTX TITAN X in FUNCTIONAL mode...
+    Compiling...
+    Executing...
+    GPU Naive Kernel time: 1988.94 ms
+    GPU Optimized Kernel time: 5002.1 ms
+    CPU time: 2018.43 ms
+    Results match!
+    Exit status: 0
+*/
+
 #include <iostream>
 #include <chrono>
 #include <cmath>
